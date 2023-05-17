@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+  }
+  
+  .barra-navegacion {
+	display: flex;
+	align-items: end;
+	justify-self: center;
+
+	padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131313;
+    color: #050505;
+    padding: 10px;
+    margin-top: 92px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu li a:hover {
+    background-color: #ff0000;
+    color: #333;
+  }
+  
+  .hamburguesa {
+    display: none;
+    flex-direction: column;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para pantallas de celular */
+  body {
+    margin: 0;
+  }
+  
+  .barra-navegacion {
+	display: flex;
+	align-items: end;
+	justify-self: center;
+
+	padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131313;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 92px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .hamburguesa {
+    display: none;
+    flex-direction: column;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para pantallas de celular */
+  @media (max-width: 600px){
+    .hamburguesa {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.open {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.open {
+      display: block;
+    }
+}
+
+
+
+/* Estilo de la imagen del artista */
+
+.banner {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    max-width: 50%;
+  }
+}
+
+#seccion-2{
+    margin-top: 20px;
+    color: #000000;
+    max-width: 200%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.general{
+    
+    height: 200%;
+    width: 100%;
+}
+
+
+
+.imagen-2{
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+}
+
+  
+
+/* Estilo para las columnas y parrafos */
+
+.contenedor{
+    display: flex;
+    text-align: center
+}
+
+.columna-1{
+
+    background-color: #250202f3;
+    color: #fff;
+    padding: 25px
+    
+}
+
+.columna-2{
+    background-color: rgb(68, 5, 0);
+    color: aliceblue;
+    padding: 25px;
+}
+
+.parrafo-2{
+  text-align: center;
+ color: #000000;
+}
+
+
+
+/* Estilo para los titulos */
+
+.seccion-1{
+   text-align: left;
+    width: 100vw;
+    height: 10vh;
+    text-size-adjust: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: larger;
+
+}
+
+.seccion-3{
+  text-align: center;
+  background-color: #380000;
+  color: #ffffff;
+}
+
+.seccion-3 h2{
+  color: #ffffff;
+ 
+}
+
+
+.columna-3{
+  background-color: #380000;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.columna-3 h2{
+  color: #ffffff;
+}
+
+.titulo-4{
+background-color: #380000;
+color: #fff;
+text-align: center;
+}
+
+.titulo-4 h2{
+  color: #fff;
+}
+
+.titulo-5{
+  background-color: #380000;
+  text-align: center;
+}
+
+.titulo-5 h2{
+  color: #fff;
+}
+
+
+/* Estilo para el formulario de contacto */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.formulario-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  width: 80%;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.formulario input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #b41b00;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #ad6565;
+}
+
+#mensaje {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+#mensaje p {
+  margin: 0;
+}
+
+/* Estilo para las secuencias de imágenes*/
+
+.image-container {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade 7s infinite;
+
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+/* Estilo para los botones de comprar entradas */
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.button {
+  background-color: #b41b00;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cccccc;
+}
+
+
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.button {
+  background-color: #831401;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #494949;
+}
+
+.pie footer{
+  background-color: #000000;
+  color: #fff;
+}
